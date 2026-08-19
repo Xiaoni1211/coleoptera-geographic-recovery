@@ -1,0 +1,33 @@
+# Large data and analysis outputs
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.geojson
+*.pkl
+*.zip
+
+# Credentials and local settings
+.env
+.env.*
+*credentials*
+*secret*
+*api_key*
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments and system files
+.venv/
+venv/
+.DS_Store
+*.log
